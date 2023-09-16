@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/portfolio_style.css">
+    <link rel="stylesheet" href="./assets/css/header_footer_style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <title>Портфолио</title>
+</head>
+<body>
+
+<div class="volgas_plus_general_wrapper" id="portfolio_page">
+    <header class="header">
+        <div class="header_wrapper">
+            <a href="Home.html" class="header_logo_link">
+                <img src="./assets/img/logo.svg" alt="">
+            </a>
+            <nav class="header_nav_wrapper">
+                <ul class="header_nav_ul_list">
+                    <li class="header_nav_ul_li">
+                        <a href="Home.html" class="header_nav_ul_link">Главная</a>
+                    </li>
+                    <li class="header_nav_ul_li">
+                        <a href='News.html' class="header_nav_ul_link">Новости</a>
+                    </li>
+                    <li class="header_nav_ul_li">
+                        <a href="#" class="header_nav_ul_link active">Портфолио</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header_phone_link_social_links_wrapper">
+                <div class="header_social_links_wrapper">
+                    <a class="header_social_link"  href="">
+                        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_42_1247)"><path d="M13.4578 0.875H7.55186C2.15801 0.875 0.875 2.15801 0.875 7.54224V13.4481C0.875 18.841 2.14839 20.125 7.54224 20.125H13.4481C18.841 20.125 20.125 18.8516 20.125 13.4578V7.55186C20.125 2.15801 18.8516 0.875 13.4578 0.875ZM16.4155 14.6099H15.0112C14.4799 14.6099 14.3202 14.1796 13.3673 13.2268C12.5357 12.425 12.1844 12.3249 11.9736 12.3249C11.6829 12.3249 11.603 12.4048 11.603 12.8061V14.0689C11.603 14.4106 11.4923 14.6108 10.6001 14.6108C9.73418 14.5526 8.89448 14.2896 8.15015 13.8433C7.40582 13.397 6.77817 12.7802 6.3189 12.0438C5.22855 10.6867 4.46988 9.09391 4.10322 7.39209C4.10322 7.1813 4.18311 6.99073 4.58448 6.99073H5.9878C6.34874 6.99073 6.47867 7.15146 6.62016 7.52203C7.30161 9.52787 8.46431 11.2719 8.93594 11.2719C9.11689 11.2719 9.19581 11.192 9.19581 10.7406V8.6751C9.13614 7.73281 8.63564 7.65292 8.63564 7.3122C8.64207 7.22233 8.68325 7.1385 8.75045 7.07848C8.81765 7.01847 8.90559 6.98699 8.99561 6.99073H11.2017C11.5029 6.99073 11.603 7.14087 11.603 7.50181V10.2892C11.603 10.5905 11.733 10.6906 11.8234 10.6906C12.0044 10.6906 12.1439 10.5905 12.475 10.2594C13.1862 9.39211 13.7672 8.42589 14.1998 7.39113C14.2441 7.26683 14.3277 7.16042 14.4381 7.08812C14.5484 7.01583 14.6794 6.98162 14.811 6.99073H16.2153C16.6359 6.99073 16.7254 7.20151 16.6359 7.50181C16.1253 8.64568 15.4935 9.73149 14.7514 10.7406C14.6002 10.9716 14.5396 11.0919 14.7514 11.3624C14.8909 11.5732 15.3828 11.9842 15.7139 12.3749C16.195 12.8549 16.5946 13.4102 16.8968 14.0189C17.0171 14.4097 16.8159 14.6099 16.4155 14.6099Z" fill="#4A85D5"/></g><defs><clipPath id="clip0_42_1247"><rect width="21" height="21" fill="white"/></clipPath></defs></svg>
+                    </a>
+                    <a  class="header_social_link" href="">
+                        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_40_158)"><path d="M0.448018 10.3743C0.447525 12.1387 0.91215 13.8615 1.79563 15.3801L0.363525 20.5684L5.71459 19.1762C7.19462 19.9756 8.85289 20.3946 10.538 20.3947H10.5425C16.1054 20.3947 20.6338 15.903 20.6362 10.3822C20.6372 7.70699 19.5882 5.19139 17.6823 3.29878C15.7767 1.40634 13.2424 0.363587 10.542 0.362366C4.97844 0.362366 0.450396 4.85376 0.4481 10.3743" fill="url(#paint0_linear_40_158)"/><path d="M7.93061 6.03531C7.73488 5.60367 7.5289 5.59496 7.34277 5.58739C7.19036 5.58088 7.01612 5.58137 6.84205 5.58137C6.66782 5.58137 6.38473 5.6464 6.14544 5.90565C5.90591 6.16514 5.23096 6.79221 5.23096 8.06759C5.23096 9.34305 6.16718 10.5756 6.29769 10.7488C6.42837 10.9216 8.10509 13.6226 10.7606 14.6617C12.9676 15.5252 13.4167 15.3534 13.8957 15.3101C14.3747 15.267 15.4415 14.6832 15.6591 14.0779C15.8769 13.4726 15.8769 12.9538 15.8116 12.8454C15.7463 12.7374 15.5721 12.6725 15.3108 12.5429C15.0494 12.4133 13.765 11.7861 13.5255 11.6996C13.286 11.6132 13.1119 11.57 12.9376 11.8296C12.7634 12.0888 12.2631 12.6725 12.1106 12.8454C11.9583 13.0187 11.8058 13.0403 11.5446 12.9106C11.2831 12.7805 10.4417 12.5071 9.44351 11.6241C8.66684 10.9369 8.14249 10.0884 7.99008 9.82882C7.83766 9.56966 7.97375 9.42917 8.10476 9.3C8.22214 9.18385 8.36611 8.99729 8.49687 8.84597C8.62713 8.69458 8.67061 8.58657 8.75773 8.41368C8.84493 8.24064 8.80129 8.08924 8.73607 7.95958C8.67061 7.82992 8.16292 6.54786 7.93061 6.03531Z" fill="white"/></g><defs><linearGradient id="paint0_linear_40_158" x1="1014" y1="2020.96" x2="1014" y2="0.362366" gradientUnits="userSpaceOnUse"><stop stop-color="#1FAF38"/><stop offset="1" stop-color="#60D669"/></linearGradient><clipPath id="clip0_40_158"><rect width="21" height="21" fill="white"/></clipPath></defs></svg>
+                    </a>
+                    <a  class="header_social_link" href="">
+                        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_40_162)"><path d="M10.5 0C7.71586 0 5.04328 1.10693 3.07617 3.07535C1.10703 5.04455 0.000545458 7.71517 0 10.5C0 13.2836 1.10742 15.9562 3.07617 17.9246C5.04328 19.8931 7.71586 21 10.5 21C13.2841 21 15.9567 19.8931 17.9238 17.9246C19.8926 15.9562 21 13.2836 21 10.5C21 7.71635 19.8926 5.04377 17.9238 3.07535C15.9567 1.10693 13.2841 0 10.5 0Z" fill="url(#paint0_linear_40_162)"/><path d="M4.75299 10.3891C7.81439 9.0556 9.85533 8.17639 10.8758 7.75163C13.7928 6.53872 14.3982 6.32806 14.7936 6.32092C14.8806 6.31953 15.0742 6.34102 15.2005 6.44315C15.3055 6.52928 15.335 6.64577 15.3498 6.72755C15.3629 6.80926 15.381 6.99547 15.3662 7.14083C15.2087 8.80114 14.5245 12.8302 14.1767 14.6898C14.0307 15.4767 13.7403 15.7405 13.4598 15.7662C12.8495 15.8224 12.3868 15.3633 11.7962 14.9763C10.8725 14.3704 10.3508 13.9934 9.45338 13.4023C8.4165 12.7191 9.08916 12.3436 9.67978 11.73C9.834 11.5694 12.5213 9.12565 12.5722 8.90401C12.5788 8.87628 12.5853 8.77292 12.523 8.71845C12.4623 8.66382 12.372 8.68252 12.3064 8.69729C12.2129 8.71829 10.738 9.69413 7.87674 11.6247C7.45838 11.9124 7.07939 12.0527 6.73814 12.0453C6.36408 12.0373 5.6422 11.8333 5.10572 11.6591C4.44947 11.4453 3.92611 11.3323 3.97205 10.9692C3.99502 10.7802 4.25588 10.5868 4.75299 10.3891Z" fill="white"/></g><defs><linearGradient id="paint0_linear_40_162" x1="1050" y1="0" x2="1050" y2="2100" gradientUnits="userSpaceOnUse"><stop stop-color="#2AABEE"/><stop offset="1" stop-color="#229ED9"/></linearGradient><clipPath id="clip0_40_162"><rect width="21" height="21" fill="white"/></clipPath></defs></svg>
+                    </a>
+                </div>
+                <a href="tel:+7 985 519 55 77" class="header_phone_link">+7 985 519 55 77</a>
+
+            </div>
+
+        </div>
+    </header>
+    <main class="volgas_plus_main_wrapper">
+        <section class="portfolio">
+            <div class="portfolio_wrapper">
+                <h1 class="portfolio_title">Портфолио</h1>
+                <div class="portfolio_items_wrapper">
+                    <a href="Project_Single_Page.html" class="portfolio_item">
+                        <div class="portfolio_item_img">
+                            <img src="./assets/img/portfolio_img.png" alt="">
+                        </div>
+                        <div class="portfolio_item_info_box">
+                            <p class="portfolio_item_info_box_title">Подключение дома 165 м2 к газу</p>
+                            <p class="portfolio_item_info_box_info">
+                                Оказываем комплексные услуги по гази­фи­ка­ции част­ных жилых домов, много­квар­тир­ных домов от получения технических условий до пуска газа. Выполним техно­ло­гиче­ское при­сое­дине­ние до границ земельного участка заявителя и по территории участка.
+                            </p>
+                            <div class="portfolio_item_info_box_details_wrapper">
+                                <p class="portfolio_item_info_box_details_title">Выполненные работы</p>
+                                <ul class="portfolio_item_info_box_details_list">
+                                    <li class="portfolio_item_info_box_details_li">
+                                        получен договор ТП и ТУ АО "МОСОБЛГАЗ"
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        разработан проект газификации
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        проектная документация согласована с АО "МОСОБЛГАЗ"
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        строительство газопровода -ввода низкого давления
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        строительство системы внутреннего газоснабжения
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        подключение счетчика, котла и газовой плиты, установка сигнализатора загазованности
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        подготовка и согласование исполнительной документации
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        сдача объекта в эксплуатацию техническим комиссиям
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        заключение договора газоснабжения
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        врезка и пуск газа
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="portfolio_item_info_box_price_info">Стоимость: от 120 000 рублей</p>
+                            <button class="portfolio_item_info_box_btn">Подробнее</button>
+                        </div>
+                    </a>
+                    <a href="Project_Single_Page.html" class="portfolio_item">
+                        <div class="portfolio_item_img">
+                            <img src="./assets/img/portfolio_img.png" alt="">
+                        </div>
+                        <div class="portfolio_item_info_box">
+                            <p class="portfolio_item_info_box_title">Подключение дома 165 м2 к газу</p>
+                            <p class="portfolio_item_info_box_info">
+                                Оказываем комплексные услуги по гази­фи­ка­ции част­ных жилых домов, много­квар­тир­ных домов от получения технических условий до пуска газа. Выполним техно­ло­гиче­ское при­сое­дине­ние до границ земельного участка заявителя и по территории участка.
+                            </p>
+                            <div class="portfolio_item_info_box_details_wrapper">
+                                <p class="portfolio_item_info_box_details_title">Выполненные работы</p>
+                                <ul class="portfolio_item_info_box_details_list">
+                                    <li class="portfolio_item_info_box_details_li">
+                                        получен договор ТП и ТУ АО "МОСОБЛГАЗ"
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        разработан проект газификации
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        проектная документация согласована с АО "МОСОБЛГАЗ"
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        строительство газопровода -ввода низкого давления
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        строительство системы внутреннего газоснабжения
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        подключение счетчика, котла и газовой плиты, установка сигнализатора загазованности
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        подготовка и согласование исполнительной документации
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        сдача объекта в эксплуатацию техническим комиссиям
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        заключение договора газоснабжения
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        врезка и пуск газа
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="portfolio_item_info_box_price_info">Стоимость: от 120 000 рублей</p>
+                            <button class="portfolio_item_info_box_btn">Подробнее</button>
+                        </div>
+                    </a>
+                    <a href="Project_Single_Page.html" class="portfolio_item">
+                        <div class="portfolio_item_img">
+                            <img src="./assets/img/portfolio_img.png" alt="">
+                        </div>
+                        <div class="portfolio_item_info_box">
+                            <p class="portfolio_item_info_box_title">Подключение дома 165 м2 к газу</p>
+                            <p class="portfolio_item_info_box_info">
+                                Оказываем комплексные услуги по гази­фи­ка­ции част­ных жилых домов, много­квар­тир­ных домов от получения технических условий до пуска газа. Выполним техно­ло­гиче­ское при­сое­дине­ние до границ земельного участка заявителя и по территории участка.
+                            </p>
+                            <div class="portfolio_item_info_box_details_wrapper">
+                                <p class="portfolio_item_info_box_details_title">Выполненные работы</p>
+                                <ul class="portfolio_item_info_box_details_list">
+                                    <li class="portfolio_item_info_box_details_li">
+                                        получен договор ТП и ТУ АО "МОСОБЛГАЗ"
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        разработан проект газификации
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        проектная документация согласована с АО "МОСОБЛГАЗ"
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        строительство газопровода -ввода низкого давления
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        строительство системы внутреннего газоснабжения
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        подключение счетчика, котла и газовой плиты, установка сигнализатора загазованности
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        подготовка и согласование исполнительной документации
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        сдача объекта в эксплуатацию техническим комиссиям
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        заключение договора газоснабжения
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        врезка и пуск газа
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="portfolio_item_info_box_price_info">Стоимость: от 120 000 рублей</p>
+                            <button class="portfolio_item_info_box_btn">Подробнее</button>
+                        </div>
+                    </a>
+                    <a href="Project_Single_Page.html" class="portfolio_item">
+                        <div class="portfolio_item_img">
+                            <img src="./assets/img/portfolio_img.png" alt="">
+                        </div>
+                        <div class="portfolio_item_info_box">
+                            <p class="portfolio_item_info_box_title">Подключение дома 165 м2 к газу</p>
+                            <p class="portfolio_item_info_box_info">
+                                Оказываем комплексные услуги по гази­фи­ка­ции част­ных жилых домов, много­квар­тир­ных домов от получения технических условий до пуска газа. Выполним техно­ло­гиче­ское при­сое­дине­ние до границ земельного участка заявителя и по территории участка.
+                            </p>
+                            <div class="portfolio_item_info_box_details_wrapper">
+                                <p class="portfolio_item_info_box_details_title">Выполненные работы</p>
+                                <ul class="portfolio_item_info_box_details_list">
+                                    <li class="portfolio_item_info_box_details_li">
+                                        получен договор ТП и ТУ АО "МОСОБЛГАЗ"
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        разработан проект газификации
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        проектная документация согласована с АО "МОСОБЛГАЗ"
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        строительство газопровода -ввода низкого давления
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        строительство системы внутреннего газоснабжения
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        подключение счетчика, котла и газовой плиты, установка сигнализатора загазованности
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        подготовка и согласование исполнительной документации
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        сдача объекта в эксплуатацию техническим комиссиям
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        заключение договора газоснабжения
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        врезка и пуск газа
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="portfolio_item_info_box_price_info">Стоимость: от 120 000 рублей</p>
+                            <button class="portfolio_item_info_box_btn">Подробнее</button>
+                        </div>
+                    </a>
+                    <a href="Project_Single_Page.html" class="portfolio_item">
+                        <div class="portfolio_item_img">
+                            <img src="./assets/img/portfolio_img.png" alt="">
+                        </div>
+                        <div class="portfolio_item_info_box">
+                            <p class="portfolio_item_info_box_title">Подключение дома 165 м2 к газу</p>
+                            <p class="portfolio_item_info_box_info">
+                                Оказываем комплексные услуги по гази­фи­ка­ции част­ных жилых домов, много­квар­тир­ных домов от получения технических условий до пуска газа. Выполним техно­ло­гиче­ское при­сое­дине­ние до границ земельного участка заявителя и по территории участка.
+                            </p>
+                            <div class="portfolio_item_info_box_details_wrapper">
+                                <p class="portfolio_item_info_box_details_title">Выполненные работы</p>
+                                <ul class="portfolio_item_info_box_details_list">
+                                    <li class="portfolio_item_info_box_details_li">
+                                        получен договор ТП и ТУ АО "МОСОБЛГАЗ"
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        разработан проект газификации
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        проектная документация согласована с АО "МОСОБЛГАЗ"
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        строительство газопровода -ввода низкого давления
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        строительство системы внутреннего газоснабжения
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        подключение счетчика, котла и газовой плиты, установка сигнализатора загазованности
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        подготовка и согласование исполнительной документации
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        сдача объекта в эксплуатацию техническим комиссиям
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        заключение договора газоснабжения
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        врезка и пуск газа
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="portfolio_item_info_box_price_info">Стоимость: от 120 000 рублей</p>
+                            <button class="portfolio_item_info_box_btn">Подробнее</button>
+                        </div>
+                    </a>
+                    <a href="Project_Single_Page.html" class="portfolio_item">
+                        <div class="portfolio_item_img">
+                            <img src="./assets/img/portfolio_img.png" alt="">
+                        </div>
+                        <div class="portfolio_item_info_box">
+                            <p class="portfolio_item_info_box_title">Подключение дома 165 м2 к газу</p>
+                            <p class="portfolio_item_info_box_info">
+                                Оказываем комплексные услуги по гази­фи­ка­ции част­ных жилых домов, много­квар­тир­ных домов от получения технических условий до пуска газа. Выполним техно­ло­гиче­ское при­сое­дине­ние до границ земельного участка заявителя и по территории участка.
+                            </p>
+                            <div class="portfolio_item_info_box_details_wrapper">
+                                <p class="portfolio_item_info_box_details_title">Выполненные работы</p>
+                                <ul class="portfolio_item_info_box_details_list">
+                                    <li class="portfolio_item_info_box_details_li">
+                                        получен договор ТП и ТУ АО "МОСОБЛГАЗ"
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        разработан проект газификации
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        проектная документация согласована с АО "МОСОБЛГАЗ"
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        строительство газопровода -ввода низкого давления
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        строительство системы внутреннего газоснабжения
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        подключение счетчика, котла и газовой плиты, установка сигнализатора загазованности
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        подготовка и согласование исполнительной документации
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        сдача объекта в эксплуатацию техническим комиссиям
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        заключение договора газоснабжения
+                                    </li>
+                                    <li class="portfolio_item_info_box_details_li">
+                                        врезка и пуск газа
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="portfolio_item_info_box_price_info">Стоимость: от 120 000 рублей</p>
+                            <button class="portfolio_item_info_box_btn">Подробнее</button>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="portfolio_paginations_buttons_wrapper">
+                    <button class="portfolio_paginations_button_left"></button>
+                    <a href="" class="portfolio_pagination_link active">1</a>
+                    <a href="" class="portfolio_pagination_link">2</a>
+                    <a href="" class="portfolio_pagination_link">3</a>
+                    <span class="portfolio_pagination_link">...</span>
+                    <a href="" class="portfolio_pagination_link">12</a>
+                    <button class="portfolio_paginations_button_right active"></button>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer_wrapper">
+            <div class="footer_first_item">
+                <a href="Home.html" class="footer_logo_link">
+                    <img src="./assets/img/logo.svg" alt="">
+                </a>
+                <nav class="footer_nav_wrapper">
+                    <ul class="footer_nav_ul_list">
+
+                        <li class="footer_nav_ul_li">
+                            <a href='News.html' class="footer_nav_ul_link">Новости</a>
+                        </li>
+                        <li class="footer_nav_ul_li">
+                            <a href="#" class="footer_nav_ul_link">Портфолио</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer_phone_link_social_links_wrapper">
+                    <div class="footer_social_links_wrapper">
+                        <a class="footer_social_link"  href="">
+                            <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_42_1247)"><path d="M13.4578 0.875H7.55186C2.15801 0.875 0.875 2.15801 0.875 7.54224V13.4481C0.875 18.841 2.14839 20.125 7.54224 20.125H13.4481C18.841 20.125 20.125 18.8516 20.125 13.4578V7.55186C20.125 2.15801 18.8516 0.875 13.4578 0.875ZM16.4155 14.6099H15.0112C14.4799 14.6099 14.3202 14.1796 13.3673 13.2268C12.5357 12.425 12.1844 12.3249 11.9736 12.3249C11.6829 12.3249 11.603 12.4048 11.603 12.8061V14.0689C11.603 14.4106 11.4923 14.6108 10.6001 14.6108C9.73418 14.5526 8.89448 14.2896 8.15015 13.8433C7.40582 13.397 6.77817 12.7802 6.3189 12.0438C5.22855 10.6867 4.46988 9.09391 4.10322 7.39209C4.10322 7.1813 4.18311 6.99073 4.58448 6.99073H5.9878C6.34874 6.99073 6.47867 7.15146 6.62016 7.52203C7.30161 9.52787 8.46431 11.2719 8.93594 11.2719C9.11689 11.2719 9.19581 11.192 9.19581 10.7406V8.6751C9.13614 7.73281 8.63564 7.65292 8.63564 7.3122C8.64207 7.22233 8.68325 7.1385 8.75045 7.07848C8.81765 7.01847 8.90559 6.98699 8.99561 6.99073H11.2017C11.5029 6.99073 11.603 7.14087 11.603 7.50181V10.2892C11.603 10.5905 11.733 10.6906 11.8234 10.6906C12.0044 10.6906 12.1439 10.5905 12.475 10.2594C13.1862 9.39211 13.7672 8.42589 14.1998 7.39113C14.2441 7.26683 14.3277 7.16042 14.4381 7.08812C14.5484 7.01583 14.6794 6.98162 14.811 6.99073H16.2153C16.6359 6.99073 16.7254 7.20151 16.6359 7.50181C16.1253 8.64568 15.4935 9.73149 14.7514 10.7406C14.6002 10.9716 14.5396 11.0919 14.7514 11.3624C14.8909 11.5732 15.3828 11.9842 15.7139 12.3749C16.195 12.8549 16.5946 13.4102 16.8968 14.0189C17.0171 14.4097 16.8159 14.6099 16.4155 14.6099Z" fill="#4A85D5"/></g><defs><clipPath id="clip0_42_1247"><rect width="21" height="21" fill="white"/></clipPath></defs></svg>
+                        </a>
+                        <a  class="footer_social_link" href="">
+                            <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_40_158)"><path d="M0.448018 10.3743C0.447525 12.1387 0.91215 13.8615 1.79563 15.3801L0.363525 20.5684L5.71459 19.1762C7.19462 19.9756 8.85289 20.3946 10.538 20.3947H10.5425C16.1054 20.3947 20.6338 15.903 20.6362 10.3822C20.6372 7.70699 19.5882 5.19139 17.6823 3.29878C15.7767 1.40634 13.2424 0.363587 10.542 0.362366C4.97844 0.362366 0.450396 4.85376 0.4481 10.3743" fill="url(#paint0_linear_40_158)"/><path d="M7.93061 6.03531C7.73488 5.60367 7.5289 5.59496 7.34277 5.58739C7.19036 5.58088 7.01612 5.58137 6.84205 5.58137C6.66782 5.58137 6.38473 5.6464 6.14544 5.90565C5.90591 6.16514 5.23096 6.79221 5.23096 8.06759C5.23096 9.34305 6.16718 10.5756 6.29769 10.7488C6.42837 10.9216 8.10509 13.6226 10.7606 14.6617C12.9676 15.5252 13.4167 15.3534 13.8957 15.3101C14.3747 15.267 15.4415 14.6832 15.6591 14.0779C15.8769 13.4726 15.8769 12.9538 15.8116 12.8454C15.7463 12.7374 15.5721 12.6725 15.3108 12.5429C15.0494 12.4133 13.765 11.7861 13.5255 11.6996C13.286 11.6132 13.1119 11.57 12.9376 11.8296C12.7634 12.0888 12.2631 12.6725 12.1106 12.8454C11.9583 13.0187 11.8058 13.0403 11.5446 12.9106C11.2831 12.7805 10.4417 12.5071 9.44351 11.6241C8.66684 10.9369 8.14249 10.0884 7.99008 9.82882C7.83766 9.56966 7.97375 9.42917 8.10476 9.3C8.22214 9.18385 8.36611 8.99729 8.49687 8.84597C8.62713 8.69458 8.67061 8.58657 8.75773 8.41368C8.84493 8.24064 8.80129 8.08924 8.73607 7.95958C8.67061 7.82992 8.16292 6.54786 7.93061 6.03531Z" fill="white"/></g><defs><linearGradient id="paint0_linear_40_158" x1="1014" y1="2020.96" x2="1014" y2="0.362366" gradientUnits="userSpaceOnUse"><stop stop-color="#1FAF38"/><stop offset="1" stop-color="#60D669"/></linearGradient><clipPath id="clip0_40_158"><rect width="21" height="21" fill="white"/></clipPath></defs></svg>
+                        </a>
+                        <a  class="footer_social_link" href="">
+                            <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_40_162)"><path d="M10.5 0C7.71586 0 5.04328 1.10693 3.07617 3.07535C1.10703 5.04455 0.000545458 7.71517 0 10.5C0 13.2836 1.10742 15.9562 3.07617 17.9246C5.04328 19.8931 7.71586 21 10.5 21C13.2841 21 15.9567 19.8931 17.9238 17.9246C19.8926 15.9562 21 13.2836 21 10.5C21 7.71635 19.8926 5.04377 17.9238 3.07535C15.9567 1.10693 13.2841 0 10.5 0Z" fill="url(#paint0_linear_40_162)"/><path d="M4.75299 10.3891C7.81439 9.0556 9.85533 8.17639 10.8758 7.75163C13.7928 6.53872 14.3982 6.32806 14.7936 6.32092C14.8806 6.31953 15.0742 6.34102 15.2005 6.44315C15.3055 6.52928 15.335 6.64577 15.3498 6.72755C15.3629 6.80926 15.381 6.99547 15.3662 7.14083C15.2087 8.80114 14.5245 12.8302 14.1767 14.6898C14.0307 15.4767 13.7403 15.7405 13.4598 15.7662C12.8495 15.8224 12.3868 15.3633 11.7962 14.9763C10.8725 14.3704 10.3508 13.9934 9.45338 13.4023C8.4165 12.7191 9.08916 12.3436 9.67978 11.73C9.834 11.5694 12.5213 9.12565 12.5722 8.90401C12.5788 8.87628 12.5853 8.77292 12.523 8.71845C12.4623 8.66382 12.372 8.68252 12.3064 8.69729C12.2129 8.71829 10.738 9.69413 7.87674 11.6247C7.45838 11.9124 7.07939 12.0527 6.73814 12.0453C6.36408 12.0373 5.6422 11.8333 5.10572 11.6591C4.44947 11.4453 3.92611 11.3323 3.97205 10.9692C3.99502 10.7802 4.25588 10.5868 4.75299 10.3891Z" fill="white"/></g><defs><linearGradient id="paint0_linear_40_162" x1="1050" y1="0" x2="1050" y2="2100" gradientUnits="userSpaceOnUse"><stop stop-color="#2AABEE"/><stop offset="1" stop-color="#229ED9"/></linearGradient><clipPath id="clip0_40_162"><rect width="21" height="21" fill="white"/></clipPath></defs></svg>
+                        </a>
+                    </div>
+                    <a href="tel:+7 985 519 55 77" class="footer_phone_link">+7 985 519 55 77</a>
+
+                </div>
+
+
+            </div>
+            <div class="footer_second_item">
+                <p class="footer_copyright_text">© 2023 ВОЛГАЗ Плюс</p>
+                <a href="" class="privacy_policy_link">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="./assets/js/home.js"></script>
+</body>
+</html>

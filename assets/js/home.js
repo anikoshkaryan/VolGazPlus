@@ -20,3 +20,13 @@ let swiper2 = new Swiper("#our_colleagues_slider", {
         prevEl: ".our_colleagues_slider_prev_btn",
     },
 });
+
+$(document).on('click', '.hamburger_menu', function(){
+    $('.mobile_menu').toggleClass('open');
+    $('body').toggleClass('overflow_hidden');
+})
+$(document).on('click', '.mobile_menu_close_btn', function(){
+    $('.mobile_menu').removeClass('open');
+    $('body').removeClass('overflow_hidden');
+
+})

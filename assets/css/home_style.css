@@ -262,7 +262,8 @@
 
 .services_item_order_btn {
     background: #366A9B;
-    width: 280px;
+    max-width: 280px;
+    width: 100%;
     height: 50px;
     border: none;
     border-radius: 10px;
@@ -1131,4 +1132,299 @@
     border: 5px solid #366A9B;
     border-radius: 20px;
     overflow: hidden;
+}
+
+/*media*/
+@media (max-width: 1200px) {
+    .top_slider_info_item_wrapper {
+        max-width: unset;
+        width: 95% !important;
+    }
+    .services_wrapper {
+        max-width: unset;
+        width: 95% !important;
+    }
+    .our_advantages_wrapper {
+        max-width: unset;
+        width: 95% !important;
+    }
+    .news_wrapper {
+        max-width: unset;
+        width: 95% !important;
+    }
+    .certificates_wrapper {
+        max-width: unset;
+        width: 95% !important;
+    }
+}
+
+@media (min-width: 505px) and (max-width: 768px) {
+    .top_slider_info_item_main_title span {
+        font-size: 60px!important;
+    }
+    .top_slider_info_item_main_title {
+        font-size: 34px!important;
+    }
+    .top_slider_info_item {
+        max-width: unset!important;
+        width: 93% !important;
+    }
+}
+@media (min-width: 426px) and (max-width: 505px) {
+    .top_slider_info_item_main_title span {
+        font-size: 50px!important;
+    }
+    .top_slider_info_item_main_title {
+        font-size: 28px!important;
+    }
+    .top_slider_info_item {
+        max-width: unset!important;
+        width: 93% !important;
+    }
+    .top_slider_info_item_main_info {
+        font-size: 16px!important;
+    }
+}
+@media (min-width: 378px) and (max-width: 425px) {
+    .top_slider_info_item_main_title span {
+        font-size: 45px!important;
+    }
+    .top_slider_info_item_main_title {
+        font-size: 25px!important;
+    }
+    .top_slider_info_item {
+        max-width: unset!important;
+        width: 93% !important;
+    }
+    .top_slider_info_item_main_info {
+        font-size: 16px!important;
+    }
+}
+@media (min-width: 350px) and  (max-width: 378px) {
+    .top_slider_info_item_main_title span {
+        font-size: 40px!important;
+    }
+    .top_slider_info_item_main_title {
+        font-size: 22px!important;
+    }
+    .top_slider_info_item {
+        max-width: unset!important;
+        width: 93% !important;
+    }
+    .top_slider_info_item_main_info {
+        font-size: 14px!important;
+    }
+}
+@media  (max-width: 350px) {
+    .top_slider_info_item_main_title span {
+        font-size: 35px!important;
+    }
+    .top_slider_info_item_main_title {
+        font-size: 20px!important;
+    }
+    .top_slider_info_item {
+        max-width: unset!important;
+        width: 93% !important;
+    }
+    .top_slider_info_item_main_info {
+        font-size: 14px!important;
+    }
+}
+
+@media (max-width: 425px) {
+    .top_slider_info_item {
+        bottom: 155px!important;
+    }
+
+    .services_info {
+        font-size: 20px!important;
+    }
+    #top_slider {
+        margin-bottom: 60px!important;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .services_item {
+        padding: 15px!important;
+    }
+    .our_advantages_item:nth-of-type(4) .our_advantages_item_info {
+        width: unset!important;
+    }
+    .our_advantages_item:nth-of-type(3) .our_advantages_item_info {
+        width: unset!important;
+    }
+}
+
+
+@media (min-width: 551px) and  (max-width: 950px) {
+    .services_items_wrapper {
+        flex-wrap: wrap;
+    }
+    .services_item {
+        width: 48%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 550px) {
+    .services_items_wrapper {
+        flex-wrap: wrap;
+    }
+    .services_item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .services_item_price_info {
+        font-size: 18px!important;
+    }
+    .services_item_date_info {
+        font-size: 18px!important;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 950px) {
+    .our_advantages_item_title {
+        font-size: 45px!important;
+    }
+    .our_advantages_item_info {
+        font-size: 15px!important;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 850px) {
+    .our_advantages_items_wrapper {
+        flex-wrap: wrap;
+    }
+    .our_advantages_item {
+      width: 31% !important;
+        margin-bottom: 20px;
+    }
+    .news_item_img {
+        height: 280px!important;
+    }
+}
+
+@media (min-width: 631px) and (max-width: 768px) {
+    .news_item_img {
+        height: 230px!important;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+
+    .our_advantages_items_wrapper {
+        flex-wrap: wrap;
+    }
+    .our_advantages_item {
+      width: 48%!important;
+        margin-bottom: 20px;
+    }
+
+    }
+@media  (max-width: 425px) {
+
+    .our_advantages_items_wrapper {
+        flex-wrap: wrap;
+    }
+    .our_advantages_item {
+      width: 100%!important;
+        margin-bottom: 20px;
+    }
+    .our_advantages_item_title {
+        font-size: 40px!important;
+    }
+    .our_advantages_item_info {
+        font-size: 14px!important;
+    }
+    .certificates_info {
+        font-size: 16px!important;
+    }
+}
+
+@media (max-width: 630px) {
+    .news_item_img {
+        height: unset!important;
+    }
+    .news_item {
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+    .news_items_wrapper {
+        flex-wrap: wrap;
+        margin-bottom: 0!important;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1100px) {
+    .certificates_item {
+        height: 220px!important;
+        max-width: 150px!important;
+    }
+}
+@media (min-width: 951px) and  (max-width: 1000px) {
+    .certificates_item {
+        height: 200px!important;
+        max-width: 130px!important;
+    }
+}
+@media  (min-width: 769px) and (max-width: 951px) {
+    .certificates_items_wrapper {
+        flex-wrap: wrap;
+    }
+    .certificates_item {
+        height: unset!important;
+        max-width: unset!important;
+        width: 31% !important;
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 768px) {
+    .certificates_items_wrapper {
+        flex-wrap: wrap;
+    }
+    .certificates_item {
+        height: unset!important;
+        max-width: unset!important;
+        width: 48% !important;
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 510px) and (max-width: 768px) {
+    .certificates_title span:first-of-type {
+        font-size: 45px!important;
+    }
+}
+@media (min-width: 453px) and  (max-width: 510px) {
+    .certificates_title span:first-of-type {
+        font-size: 40px!important;
+    }
+}
+@media (min-width: 392px) and (max-width: 453px) {
+    .certificates_title span:first-of-type {
+        font-size: 35px!important;
+    }
+    .certificates_title span:nth-of-type(2) {
+        font-size: 26px!important;
+    }
+    .certificates_title {
+        font-size: 23px!important;
+    }
+
+}
+@media (max-width: 392px) {
+    .certificates_title span:first-of-type {
+        font-size: 30px!important;
+    }
+    .certificates_title span:nth-of-type(2) {
+        font-size: 26px!important;
+    }
+    .certificates_title {
+        font-size: 23px!important;
+    }
+
 }
